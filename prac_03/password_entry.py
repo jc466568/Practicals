@@ -10,8 +10,7 @@ def main():
 
 def check_password(password):
     if len(password) >= 10:
-        return password
+        return True
 
 
 main()
-
