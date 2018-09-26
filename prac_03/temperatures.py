@@ -1,10 +1,10 @@
 
 MENU = """C - Convert Celsius to Fahrenheit
 F - Convert Fahrenheit to Celsius"""
-print(MENU)
 
 
 def main():
+    print(MENU)
     choice = input(">>> ").upper()
     temperature = float(input("Enter Temperature Value: "))
     if choice == 'C':
